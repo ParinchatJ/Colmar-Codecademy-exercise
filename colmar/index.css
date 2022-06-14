@@ -1,0 +1,388 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+
+/*menubar*/
+.academy,
+.navbar {
+  font-weight: 100;
+}
+
+#menubar {
+  background-color: white;
+  margin-right: 24px;
+  height: 64px;
+  width: 79.1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 9;
+}
+
+.nav {
+  padding-right: 0;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 24px;
+  align-items: center;
+}
+
+.navbar p {
+  margin-left: 16px;
+}
+
+.logo {
+  display: flex;
+}
+
+/*page1*/
+
+#banner-container {
+
+  display: flex;
+  align-items: center;
+  padding: 96px 24px 32px 24px;
+  background-color: #d7d7d7;
+}
+
+#banner-container img {
+  width: 60%;
+}
+
+#banner-container #banner-text {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+#banner-container #banner-text h1 {
+  margin-top: 24px;
+  color: #4a4a4a;
+}
+
+#banner-container #banner-text p {
+  color: #4a4a4a;
+  margin-top: 24px;
+}
+
+#banner-container #banner-text button {
+  color: white;
+  background-color: #4a4a4a;
+  border: unset;
+  padding: 8px 0px;
+  margin-top: 24px;
+}
+
+/*page2*/
+#page2-container {
+  display: flex;
+}
+
+#page2-container .leftbox {
+  padding: 32px 24px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#page2-container .leftbox img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+#page2-container .leftbox .textleft h1 {
+  color: #4a4a4a;
+  margin-bottom: 24px;
+}
+
+#page2-container .leftbox .textleft .lastleft {
+  margin-top: 32px;
+}
+
+  /*3ิboxright*/
+#page2-container .rightbox {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 38.5%;
+  border-left: 1px solid #d7d7d7;
+  border-right: 1px solid #d7d7d7;
+}
+
+#page2-container .rightbox .rightpart1, .rightpart2, .rightpart3 {      /*ข้างใน 3 box*/
+  display: flex;
+  justify-content: center;
+  width: auto;
+  border: 1px solid #d7d7d7;
+}
+
+.rightpart3 {
+  background-color: #d7d7d7;
+}
+
+#page2-container .rightbox .rightpart1 img {      /*ข้างในรูป 3 box*/
+  height: auto;
+  width: 35%;
+  margin: 16px 25px 16px 16px;
+}
+
+#page2-container .rightbox .rightpart2 img {      
+  height: auto;
+  width: 35%;
+  margin: 16px 25px 16px 16px;
+}
+
+#page2-container .rightbox .rightpart3 img {      
+  height: auto;
+  width: 35%;
+  margin: 16px 25px 16px 16px;
+}
+
+#page2-container .rightbox .rightpart1 .textright{      /*ข้างใน text 3 box*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  color: #4a4a4a;
+}
+
+#page2-container .rightbox .rightpart2 .textright{      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  color: #4a4a4a;
+}
+#page2-container .rightbox .rightpart3 .textright{      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  color: #4a4a4a;
+}
+
+#page2-container .rightbox .rightpart1 .textright h2 {    /*จัด text ใน 3 box*/
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#page2-container .rightbox .rightpart1 .textright p {
+  margin-bottom: 8px;
+}
+
+#page2-container .rightbox .rightpart2 .textright h2 {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#page2-container .rightbox .rightpart2 .textright p {
+  margin-bottom: 8px;
+}
+
+#page2-container .rightbox .rightpart3 .textright h2 {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#page2-container .rightbox .rightpart3 .textright p {
+  margin-bottom: 8px;
+}
+
+/*page3*/
+#page3-container {
+  background-color: #d7d7d7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+#page3-container h1 {
+  color: #4a4a4a;
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 42px;
+}
+
+#page3-container .box6 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 72px 0 72px;
+}
+
+#page3-container .box6 .box1-6, .box2-6, .box3-6, .box4-6, .box5-6, .box6-6 {                    /*จัดรูปและข้อความในแต่ละ box*/
+  background-color: white;
+  width: 360px;
+}
+
+#page3-container .box6 .box1-6, .box2-6, .box3-6 {
+  margin-bottom: 32px;
+}
+
+#page3-container .box6 .box1-6 img {                    /*แก้ภาพใน box*/
+  height: auto;
+  width: 360px;
+}
+
+#page3-container .box6 .box2-6 img {                 
+  height: auto;
+  width: 360px;
+}
+
+#page3-container .box6 .box3-6 img {               
+  height: auto;
+  width: 360px;
+}
+
+#page3-container .box6 .box4-6 img {                   
+  height: auto;
+  width: 360px;
+}
+
+#page3-container .box6 .box5-6 img {                    
+  height: auto;
+  width: 360px;
+}
+
+#page3-container .box6 .box6-6 img {                    
+  height: auto;
+  width: 360px;
+}
+
+.textbox6 {             /*text 6 box*/
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  padding-bottom: 24px;
+  color: #4a4a4a;
+}
+
+.textbox6 h2 {
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.textbox6 .courses, p {
+  display: flex;
+  padding-right: 150px;
+  margin: 0 0 8px 0;
+  font-weight: 300;
+}
+
+/*page4*/
+#page4-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#page4-container h1 {
+  display: flex;
+  justify-content: center;
+  color: #4a4a4a;
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#page4-container .thesis-box-mid {  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.VDO-box {
+  display: flex;
+  padding-left: 24px;
+  z-index: 1;
+  position: relative;
+}
+
+#page4-container .thesis-box-mid .VDO-box video {
+  width: 60%;
+}
+
+/*VDO มีปัญหา*/ 
+/*ads*/
+.ads-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  width: 30%;
+  z-index: 4;
+  position: absolute;
+  right: 147px;
+}
+
+.ads1 {
+  display: flex;
+  background-color: #d7d7d7;
+  width: 464px;
+}
+
+.ads2 {
+  display: flex;
+}
+
+.ads1 img {
+  height: auto;
+  width: 35%;
+  padding: 16px;
+}
+
+.ads1 .textads{
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  justify-content: center;
+  color: #4a4a4a;
+}
+
+.ads1 .textads h2 {
+  margin-bottom: 16px;
+}
+
+.ads2 img {
+  height: auto;
+  width: 35%;
+  padding: 16px;
+}
+
+.ads2 .textads {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  justify-content: center;
+  color: #4a4a4a;
+}
+
+.ads2 .textads h2 {
+  margin-bottom: 16px;
+}
+
+.bottom-page {
+  border-top: 1px solid #d7d7d7;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  padding: 16px 12px 0 24px;
+}
+
+.gene {
+  padding: 0;
+}
