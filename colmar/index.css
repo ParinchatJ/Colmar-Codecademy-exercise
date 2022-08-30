@@ -16,14 +16,14 @@ body {
 
 #menubar {
   background-color: white;
-  margin-right: 24px;
   height: 64px;
-  width: 79.1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 9;
+  width: 1280px;
+
 }
 
 .nav {
@@ -50,8 +50,10 @@ body {
 
   display: flex;
   align-items: center;
-  padding: 96px 24px 32px 24px;
+  justify-content: center;
+  padding-top: 100px;
   background-color: #d7d7d7;
+  width: 100%;
 }
 
 #banner-container img {
@@ -89,7 +91,7 @@ body {
 }
 
 #page2-container .leftbox {
-  padding: 32px 24px 32px 24px;
+  padding: 32px 24px 0 24px;
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -106,7 +108,8 @@ body {
 }
 
 #page2-container .leftbox .textleft .lastleft {
-  margin-top: 32px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
   /*3ิboxright*/
@@ -119,7 +122,7 @@ body {
   border-right: 1px solid #d7d7d7;
 }
 
-#page2-container .rightbox .rightpart1, .rightpart2, .rightpart3 {      /*ข้างใน 3 box*/
+#page2-container .rightbox .rightpart1, .rightpart2, .rightpart3 {  
   display: flex;
   justify-content: center;
   width: auto;
@@ -130,7 +133,7 @@ body {
   background-color: #d7d7d7;
 }
 
-#page2-container .rightbox .rightpart1 img {      /*ข้างในรูป 3 box*/
+#page2-container .rightbox .rightpart1 img {
   height: auto;
   width: 35%;
   margin: 16px 25px 16px 16px;
@@ -148,7 +151,7 @@ body {
   margin: 16px 25px 16px 16px;
 }
 
-#page2-container .rightbox .rightpart1 .textright{      /*ข้างใน text 3 box*/
+#page2-container .rightbox .rightpart1 .textright{     
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -171,7 +174,7 @@ body {
   color: #4a4a4a;
 }
 
-#page2-container .rightbox .rightpart1 .textright h2 {    /*จัด text ใน 3 box*/
+#page2-container .rightbox .rightpart1 .textright h2 { 
   margin-bottom: 8px;
   font-weight: 600;
 }
@@ -223,7 +226,7 @@ body {
   padding: 0 72px 0 72px;
 }
 
-#page3-container .box6 .box1-6, .box2-6, .box3-6, .box4-6, .box5-6, .box6-6 {                    /*จัดรูปและข้อความในแต่ละ box*/
+#page3-container .box6 .box1-6, .box2-6, .box3-6, .box4-6, .box5-6, .box6-6 {              
   background-color: white;
   width: 360px;
 }
@@ -232,7 +235,7 @@ body {
   margin-bottom: 32px;
 }
 
-#page3-container .box6 .box1-6 img {                    /*แก้ภาพใน box*/
+#page3-container .box6 .box1-6 img {                
   height: auto;
   width: 360px;
 }
@@ -275,104 +278,92 @@ body {
   font-weight: 600;
 }
 
-.textbox6 .courses, p {
+.textbox6 .courses p {
   display: flex;
-  padding-right: 150px;
   margin: 0 0 8px 0;
   font-weight: 300;
 }
 
+
 /*page4*/
+
 #page4-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  
+  align-items: center; 
 }
 
-#page4-container h1 {
+#page4-container .thesis-header h1 {
+  padding: 32px 0;
+  font-size: 42px;
+}
+
+#page4-container .thesis-big-container {
   display: flex;
-  justify-content: center;
-  color: #4a4a4a;
-  display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  width: 100%;
 }
 
-#page4-container .thesis-box-mid {  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+#page4-container .thesis-big-container .thesis-container-left {
+  width:60%;
+  padding: 0 24px 32px 24px;
+  height: 100%;
 }
 
-.VDO-box {
-  display: flex;
-  padding-left: 24px;
-  z-index: 1;
-  position: relative;
+#page4-container .thesis-big-container .thesis-container-left video {
+  width: 100%;
 }
 
-#page4-container .thesis-box-mid .VDO-box video {
-  width: 60%;
+#page4-container .thesis-big-container .thesis-container-left h1 {
+  margin: 24px 0 8px 24px;
 }
 
-/*VDO มีปัญหา*/ 
-/*ads*/
-.ads-box {
-  display: flex;
-  flex-direction: column;
-  padding-left: 16px;
-  width: 30%;
-  z-index: 4;
-  position: absolute;
-  right: 147px;
+#page4-container .thesis-big-container .thesis-container-right {
+  width:40%;
 }
 
-.ads1 {
-  display: flex;
-  background-color: #d7d7d7;
-  width: 464px;
-}
-
-.ads2 {
+#page4-container .thesis-big-container .thesis-container-right .thesis1 {
+  background-color: lightgray;
   display: flex;
 }
 
-.ads1 img {
-  height: auto;
+#page4-container .thesis-big-container .thesis-container-right .thesis1 img {
   width: 35%;
-  padding: 16px;
-}
-
-.ads1 .textads{
-  display: flex;
-  flex-direction: column;
-  padding-left: 16px;
-  justify-content: center;
-  color: #4a4a4a;
-}
-
-.ads1 .textads h2 {
-  margin-bottom: 16px;
-}
-
-.ads2 img {
   height: auto;
-  width: 35%;
-  padding: 16px;
+  padding: 16px 16px 16px 16px;
 }
 
-.ads2 .textads {
-  width: 65%;
+#page4-container .thesis-big-container .thesis-container-right .thesis1 .thesis1-detail {
   display: flex;
   flex-direction: column;
-  padding-left: 16px;
   justify-content: center;
-  color: #4a4a4a;
 }
 
-.ads2 .textads h2 {
-  margin-bottom: 16px;
+#page4-container .thesis-big-container .thesis-container-right .thesis1 .thesis1-detail h1 {
+  font-size: 24px;
 }
+
+#page4-container .thesis-big-container .thesis-container-right .thesis2 {
+  display: flex;
+}
+
+#page4-container .thesis-big-container .thesis-container-right .thesis2 img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px 16px 16px;
+}
+
+#page4-container .thesis-big-container .thesis-container-right .thesis2 .thesis2-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page4-container .thesis-big-container .thesis-container-right .thesis2 .thesis2-detail h1 {
+  font-size: 24px;
+}
+
+/* bottom page */
 
 .bottom-page {
   border-top: 1px solid #d7d7d7;
