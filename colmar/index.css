@@ -26,6 +26,10 @@ body {
 
 }
 
+#menubar .nav-mobile {
+  display: none;
+}
+
 .nav {
   padding-right: 0;
 }
@@ -284,6 +288,9 @@ body {
   font-weight: 300;
 }
 
+.mobile-learning h1  {
+  display: none;
+}
 
 /*page4*/
 
@@ -374,6 +381,6 @@ body {
   padding: 16px 12px 0 24px;
 }
 
-.gene {
+.bottom-page .gene, .bottom-page .gene1 {
   padding: 0;
 }

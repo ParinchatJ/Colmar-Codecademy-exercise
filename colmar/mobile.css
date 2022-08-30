@@ -1,4 +1,20 @@
 @media screen and (max-width: 768px) {
+
+  /* navbar */
+  #menubar .logo, #menubar .navbar {
+    display: none;
+  }
+
+  #menubar .nav-mobile {
+    display: flex;
+    height: 64px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  /* page 1 */
+
   #banner-container {
     font-size: 24px;
   }
@@ -25,4 +41,94 @@
     background-color: #9a9a9a;
     font-size: 24px;
   }
+
+  /* page 2 */
+
+  #page2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+  }
+
+  #page2-container .leftbox {
+    display: none;
+  }
+
+  #page2-container .rightbox {
+    width: 100%;
+    border: none;
+    width: 100%;
+    margin: 32px 0;
+  }
+
+  #page2-container .rightbox .rightpart1, #page2-container .rightbox .rightpart2, #page2-container .rightbox .rightpart3 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    max-width: unset;
+    background-color: white;
+  }
+
+  #page2-container .rightbox .rightpart1 img, #page2-container .rightbox .rightpart2 img, #page2-container .rightbox .rightpart3 img {
+    width: auto;
+  }
+
+  .textright {
+    width: 100%;
+  }
+
+  /* page 3 */
+
+  #page3-container {
+    background-color: white;
+    padding: 0;
+  }
+
+  #page3-container .box6 {
+    display: none;
+  }
+
+  .mobile-learning h1 {
+    width: 100%;
+    height: 70px;
+    background-color: #9a9a9a;
+    font-weight: 500;
+    margin: 8px 16px 0 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 16px;
+  }
+
+  /* page 4 */
+
+  #page4-container {
+    margin-top: 32px;
+  }
+
+  #page4-container .thesis-big-container .thesis-container-left h1,  #page4-container .thesis-big-container .thesis-container-left p, #page4-container .thesis-big-container .thesis-container-right {
+    display: none;
+  }
+
+  #page4-container .thesis-big-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* footer */
+
+  .bottom-page .gene1 {
+    display: none;
+  }
+
+  .bottom-page {
+    display: flex;
+    justify-content: center;
+  }
+
 }
